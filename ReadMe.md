@@ -17,12 +17,12 @@ Assignment                  -> Main Project folder
 pip install fastapi uvicorn jinja2 pandas requests linkedin-api python-multipart
 
 # Python libraries used.
-# fastapi           -> for creating HTTP REST API
-# uvicorn           -> ASGI Web Server for hosting web apps
-# jinja2            -> for templates handling
-# pandas            -> CSV handling
-# requests          -> HTTP library
-# linkedin-api      -> for getting linked-in profiles information
+fastapi           -> for creating HTTP REST API
+uvicorn           -> ASGI Web Server for hosting web apps
+jinja2            -> for templates handling
+pandas            -> CSV handling
+requests          -> HTTP library
+linkedin-api      -> for getting linked-in profiles information
 
 # use this command to run the application
 uvicorn app:app --reload
