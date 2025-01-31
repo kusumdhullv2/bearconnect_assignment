@@ -29,6 +29,7 @@ pip install fastapi uvicorn jinja2 pandas requests linkedin-api python-multipart
 This application uses a third party library *linkedin-api*, which requires an existing linkedin account. So we will need to provide 2 environment variables:
 - ASSIGNMENT_USERNAME
 - ASSIGNMENT_PASSWORD
+
 **Do not use *personal* linkedin credentials**
 
 # use this command to run the application
