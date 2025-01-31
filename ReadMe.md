@@ -13,9 +13,6 @@ Assignment                  -> Main Project folder
 - testData                  -> sub-folder for test data
   - profiles.csv            -> sample csv of linked-in profiles
 
-# Before Running install these dependencies
-pip install fastapi uvicorn jinja2 pandas requests linkedin-api python-multipart
-
 # Python libraries used.
 - fastapi           -> for creating HTTP REST API
 - uvicorn           -> ASGI Web Server for hosting web apps
@@ -32,5 +29,10 @@ This application uses a third party library *linkedin-api*, which requires an ex
 
 **Do not use *personal* linkedin credentials**
 
-# use this command to run the application
+# Running the application
+
+## Before Running install these dependencies
+pip install fastapi uvicorn jinja2 pandas requests linkedin-api python-multipart
+
+## use this command to run the application
 uvicorn app:app --reload
