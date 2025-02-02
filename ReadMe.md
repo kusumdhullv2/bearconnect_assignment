@@ -36,3 +36,17 @@ pip install fastapi uvicorn jinja2 pandas requests linkedin-api python-multipart
 
 ## use this command to run the application
 uvicorn app:app --reload
+
+# Usage
+Call the URL http://<HOST_URL>:<HOST_PORT>/process as a HTTP POST, with the payload as CSV file.
+
+## Postman
+
+- HTTP Method : POST
+- URL : http://localhost:8000/process
+- Body : 
+  - Body Type : form-data
+  - Key : file
+  - Key-Type : file
+  - Value : Select input CSV file from your machine.
+
